@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.h1 {
+    background-color: lightgray;
+    width: 350px;
+    height: 450px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+.h2{
+    background-color: rgb(191, 40, 40);
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    position: absolute;
+    z-index: 1;
+    right: 27px;
+    top: 15px;
+}
+.img{
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    right: 30px
+}
+.text {
+    position:absolute;
+    z-index: 1;
+    top: 300px;
+    left:30px
+}
